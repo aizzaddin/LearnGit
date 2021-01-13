@@ -1,0 +1,17 @@
+git init : menginisialisasi repo git pada komputer
+git add namafile : menambahkan file pada staging area
+git add . : menambahkan seluruh isi file pada suatu direktori ke staging area
+git status : mengetahui status pada repo. Apakah ada perubahan pada file atau tidak
+git commit -m “kompentar” : menyimpan perubahan (commit) pada git dengan menambahkan komentar
+git config : melakukan konfigurasi pada git
+git help : mengetahui perintah yang dapat dilakukan oleh git
+git log : mengetahui perubahan/history commit pada git
+git log -n : mengetahui commit sebanyak angka(n) terakhir
+git log --namafile : mencari commit dengan nama file tertentu pada log
+git clone : menyalin repository
+git checkout : membatalkan/mengembalikan perubahan pada file
+git branch namabranch : membuat branch
+git branch : melihat daftar branch
+git checkout namabranch : pindah ke branch lain
+git remote add namaalias linkgithub : menambahkan link github
+git push namaalias namabranch : push brach ke github
